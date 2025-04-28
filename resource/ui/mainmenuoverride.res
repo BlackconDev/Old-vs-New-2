@@ -182,7 +182,26 @@
 		"fgcolor_override"	"165 17 17 255"
 		"wrap"			"1"
 	}
+	"RankPanel"
+	{
+		"ControlName"	"CPvPRankPanel" ///CMiniPVPRankPanel for another placement
+		"fieldName"		"RankPanel"
+		"xpos"			"c-220-245-12-27"	//4:3
+		if_wider
+        {
+            "xpos"		"c-234-245-12"
+        }
+		"ypos"			"28"
+		"zpos"			"330"
+		"wide"			"200"
+		"tall"			"120"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+		"mouseinputenabled"	"0"
 
+		"matchgroup"	"MatchGroup_Casual_12v12"
+		"show_model"	"0"
+	}
     "mouseoveritempanel"
     {
         "ControlName"   "CItemModelPanel"
