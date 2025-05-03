@@ -101,7 +101,7 @@
 			"image"			"illustrations/bg"
 			"scaleimage"	"1"
 		}
-			"GamemodeCycler"
+		"GamemodeCycler"
 			{
 				"ControlName"	"CCyclingAdContainerPanel"
 				"FieldName"		"GamemodeCycler"

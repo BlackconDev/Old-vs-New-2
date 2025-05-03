@@ -290,7 +290,7 @@
 				"paintbackground"   "2"
 				
 				"defaultFgColor_override"	 "46 43 42 255"
-				"armedFgColor_override"		 "46 43 42 255"
+				"armedFgColor_override"		 "235 226 202 255"
 				"depressedFgColor_override"  "46 43 42 255"
 				
 				"image_drawcolor"   "117 107 94 255"
@@ -377,6 +377,7 @@
 				"dulltext"		"0"
 				"brighttext"	"0"
 				"default"		"1"
+				
 				"Command"		"engine toggle cl_hud_minmode"
 
 				"sound_depressed"	"UI/buttonclick.wav"
@@ -405,11 +406,14 @@
 				"font"          "HudFontMediumBigBold"
 				"labelText"     "Minmode"
 				"textAlignment" "west"
-				"xpos"			"-155"
+				
+				"xpos"			"50"
 				"ypos"			"15"
 				"zpos"			"450"
+				
 				"wide"          "140"
 				"tall"          "30"
+				
 				"autoResize"    "0"
 				"pinCorner"     "0"
 				"visible"       "1"
