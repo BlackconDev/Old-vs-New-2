@@ -242,44 +242,179 @@
             "centerwrap"    "1"
         }
     }
-    "ExpandableMenu"
+   "ExpandableToolBar"
 	{
-		"ControlName"	"CMatchHistoryEntryPanel"
-		"fieldName"		"ExpandableMenu"
-		"wide"				"184"
-		"tall"				"24"
-		"visible"			"1"
-		"ypos" 				"0"
-		"xpos"				"cs-0.5"
-		"collapsed_height"	"24"
-		"expanded_height"	"219"
-		"resize_time"		"0.05"
-		"zpos" 				"1000"
-		"ignorescheme"		"1"
-
-		"toggle"
-		{
-			"ControlName"	"Button"
-			"xpos"		"0"
-			"wide"		"f0"
-			"tall"		"10"
+			"ControlName"	"CMatchHistoryEntryPanel"
+			"fieldName"		"ExpandableToolBar"
+			
+			"xpos" "r12"
+			"ypos" "cs-0.5"
+			"zpos" "1000"
+			
+			"wide"		"12"
+			"tall"		"184"	//same as collapsed_height?
 			"visible"	"1"
-			"labelText"	"v"
-			"font"		"HudFontSmallBold"
-			"command"	"toggle_collapse"
-			"textAlignment"				"center"
-			"proportionaltoparent"		"1"
-			"button_activation_type"	"1"
-
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-
-			"paintbackground"			"2"
+			
+			"collapsed_height"	"12"	// actual area show by default
+			"expanded_height"	"184" // importatn
+			
+			"resize_time"		"0.05"
+			
+			"ignorescheme"	"1"
+			expand_direction "left"
+			
+			"container"
+			{"visible"	"0"}
+			"BottomStats"
+			{"visible"	"0"}	
+			
+			"toggle"
+			{
+				"ControlName"	"Button"
+				"xpos"		"0"
+				"wide"		"f0"
+				"tall"		"184" // defines the tall
+				"visible"	"1"
+				"labelText"	"<"
+				"textinsetx" "-8"
+				"font"		"HudFontSmallBold"
+				"command"	"toggle_collapse"
 				
-			"defaultFgColor_override"	 "46 43 42 255"
-            "armedFgColor_override"		 "46 43 42 255"
-            "depressedFgColor_override"  "46 43 42 255"
-		}
+				"textAlignment"	"center"
+				"proportionaltoparent"	"1"
+				"button_activation_type"	"1"
+			
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				"paintbackground"   "2"
+				
+				"defaultFgColor_override"	 "46 43 42 255"
+				"armedFgColor_override"		 "46 43 42 255"
+				"depressedFgColor_override"  "46 43 42 255"
+				
+				"image_drawcolor"   "117 107 94 255"
+				"image_armedcolor"  "235 226 202 255"
+			}
+			"buttonimage"
+			{
+				"fieldName" "buttonimage"
+				"ControlName"	"imagepanel"
+				"xpos"			"0"//359
+				"ypos"			"0"//179
+				"zpos"			"0"
+				"mouseinputenabled" "0"
+				"wide"			"64"
+				"tall"			"512"
+				"zpos" "300"
+				"visible"		"1"
+				"scaleimage" "1"
+				"border_default"    "MainMenuButtonDefault"
+				"border_armed"      "MainMenuButtonArmed"
+				"paintbackground"   "0"
+					
+				"defaultFgColor_override" "46 43 42 255"
+				"armedFgColor_override" "235 226 202 255"
+				"depressedFgColor_override" "46 43 42 255"
+					
+				"image_drawcolor"   "117 107 94 255"
+				"image_armedcolor"  "235 226 202 255"
+			}					
+			"RandomPinnerThatWorks" //leftover
+			{
+				"ControlName"	"CExButton"
+				"fieldName"		"RandomPinnerThatWorks"
+
+
+
+
+				"xpos"		"12"
+				ypos 0
+
+
+
+				"wide"		"90"
+				"tall"		"24"
+				"visible"		"0"
+
+				"alpha" "0"
+				"pinCorner"		"2"
+			}		
+			"RandomImagePanel2"
+			{
+				"ControlName"		"EditablePanel"
+				"fieldName"		"RandomImagePanel2"
+				"zpos"		"1"
+				xpos 0
+				"wide"		"182"
+				"tall"		"184"
+				"visible"	"1"	
+				paintBackground "1"	
+				bgcolor_override "0 0 0 150"
+				"pin_to_sibling"		"RandomPinnerThatWorks"
+			
+			} 
+			
+			"MinmodeButton"	
+			{
+				"ControlName"	"CExImageButton"
+				"fieldName"		"MinmodeButton"
+				"xpos"			"-250"
+				"ypos"			"15"
+				"zpos"			"450"
+				"wide"			"29"
+				"tall"			"25"
+				"autoResize"	"0"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"tabPosition"	"0"
+				"labelText"		""
+				"font"			"HudFontSmallBold"
+				"textAlignment"	"west"
+				"textinsetx"	"25"
+				"use_proportional_insets" "1"
+				"dulltext"		"0"
+				"brighttext"	"0"
+				"default"		"1"
+				"Command"		"engine toggle cl_hud_minmode"
+
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				"image_drawcolor"	"235 226 202 255"
+				"SubImage"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"		"SubImage"
+					"xpos"			"6"
+					"ypos"			"6"
+					"zpos"			"1"
+					"wide"			"14"
+					"tall"			"14"
+					"visible"		"1"
+					"enabled"		"1"
+					"scaleImage"	"1"
+					"image"			"..\vgui\replay\thumbnails\glyph_hudmode_default"
+				}			
+			}		
+			"PlayLabel"
+			{
+				"ControlName"   "CExLabel"
+				"fieldName"     "PlayLabel"
+				"font"          "HudFontSmallBold"
+				"labelText"     "Minmode"
+				"textAlignment" "west"
+				"xpos"			"-225"
+				"ypos"			"15"
+				"wide"          "140"
+				"tall"          "30"
+				"autoResize"    "0"
+				"pinCorner"     "0"
+				"visible"       "1"
+				"enabled"       "1"
+				"fgcolor_override"  "235 227 203 255"
+			}			
 	}
     "Background"
     {

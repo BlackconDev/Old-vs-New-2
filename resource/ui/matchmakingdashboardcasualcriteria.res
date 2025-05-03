@@ -64,10 +64,10 @@
 	{
 		"ControlName"	"CMiniPVPRankPanel"
 		"fieldName"		"RankModel"
-		"xpos"			"c-220-330-12-27"	//4:3
+		"xpos"			"c-220-75-12-27"	//4:3
 		if_wider
         {
-            "xpos"		"c-234-330-12"
+            "xpos"		"c-234-75-12"
         }
 		"ypos"			"55"
 		"zpos"			"110"
@@ -86,10 +86,10 @@
 	{
 		"ControlName"	"CPvPRankPanel" ///CMiniPVPRankPanel for another placement
 		"fieldName"		"RankPanel"
-		"xpos"			"c-220-225-12-27"	//4:3
+		"xpos"			"c-220+35-12-27"	//4:3
 		if_wider
         {
-            "xpos"		"c-234-225-12"
+            "xpos"		"c-234+35-12"
         }
 		"ypos"			"55"
 		"zpos"			"330"
