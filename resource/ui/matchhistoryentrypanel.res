@@ -10,7 +10,6 @@
 		"proportionaltoparent"	"1"
 		"resize_time"	"0.2"
 	}
-
 	"Container"
 	{
 		"ControlName"	"EditablePanel"

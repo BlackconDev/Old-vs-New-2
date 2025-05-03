@@ -359,7 +359,7 @@
 			{
 				"ControlName"	"CExImageButton"
 				"fieldName"		"MinmodeButton"
-				"xpos"			"-250"
+				"xpos"			"-150"
 				"ypos"			"15"
 				"zpos"			"450"
 				"wide"			"29"
@@ -398,15 +398,16 @@
 					"image"			"..\vgui\replay\thumbnails\glyph_hudmode_default"
 				}			
 			}		
-			"PlayLabel"
+			"MinmodeLabel"
 			{
 				"ControlName"   "CExLabel"
-				"fieldName"     "PlayLabel"
-				"font"          "HudFontSmallBold"
+				"fieldName"     "MinmodeLabel"
+				"font"          "HudFontMediumBigBold"
 				"labelText"     "Minmode"
 				"textAlignment" "west"
-				"xpos"			"-225"
+				"xpos"			"-155"
 				"ypos"			"15"
+				"zpos"			"450"
 				"wide"          "140"
 				"tall"          "30"
 				"autoResize"    "0"

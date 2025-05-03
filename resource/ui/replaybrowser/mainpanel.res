@@ -42,10 +42,10 @@
 		"image"			"loadout_bottom_gradient"
 		"scaleImage"	"1"
 	}
-	"Background2a"
+	"BackgroundGrayCover"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"Background2a"
+		"fieldName"		"BackgroundGrayCover"
 		"xpos"		"0"
 		"ypos"		"0"
 		"wide"		"f0"
@@ -55,27 +55,31 @@
 		"enabled"		"1"
 		"bgcolor_override"	"46 43 42 255"
 	}	
-	"Background2"
+
+	"BackgroundQuickplay"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"Background2"
-		"xpos"		"0"
-		"ypos"		"0"
-		"wide"		"f0"
-		"tall"		"f0"
-		"zpos"	"20"
-		"visible"		"1"
-		"enabled"		"1"
-		"bgcolor_override"	"46 43 42 255"
-	}	
-	"Background"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"Background"
+		"fieldname"		"BackgroundQuickplay"
 
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.5"
-		"zpos"			"21"
+		"zpos"			"999"
+
+		"tall"			"350"
+		"wide"			"400"
+
+		"border"		"TFFatLineBorderOpaque"
+		"BGImage"
+	}
+	
+	"QuickplayContainer"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"QuickplayContainer"
+
+		"xpos"			"cs-0.5"
+		"ypos"			"cs-0.5"
+		"zpos"			"1002"
 
 		"tall"			"350"
 		"wide"			"400"
@@ -266,9 +270,9 @@
 
 								"paintbackground"	"0"
 	
-								"defaultFgColor_override" ""
+								"defaultFgColor_override" "0 0 0 000"
 								"armedFgColor_override" "235 226 202 255"
-								"depressedFgColor_override" ""
+								"depressedFgColor_override" "0 0 0 000"
 
 								"border_default"	""
 								"border_armed"		"MainMenuButtonArmed"
@@ -567,11 +571,11 @@
 
 								"paintbackground"	"0"
 	
-								"defaultFgColor_override" ""
+								"defaultFgColor_override" "0 0 0 000"
 								"armedFgColor_override" "235 226 202 255"
-								"depressedFgColor_override" ""
+								"depressedFgColor_override" "0 0 0 000"
 
-								"border_default"	""
+								"border_default"	"0 0 0 000"
 								"border_armed"		"MainMenuButtonArmed"
 							}
 						}
@@ -718,11 +722,11 @@
 
 								"paintbackground"	"0"
 	
-								"defaultFgColor_override" ""
+								"defaultFgColor_override" "0 0 0 000"
 								"armedFgColor_override" "235 226 202 255"
-								"depressedFgColor_override" ""
+								"depressedFgColor_override" "0 0 0 000"
 
-								"border_default"	""
+								"border_default"	"0 0 0 000"
 								"border_armed"		"MainMenuButtonArmed"
 							}
 						}
@@ -869,9 +873,9 @@
 
 								"paintbackground"	"0"
 	
-								"defaultFgColor_override" ""
+								"defaultFgColor_override" "0 0 0 000"
 								"armedFgColor_override" "235 226 202 255"
-								"depressedFgColor_override" ""
+								"depressedFgColor_override" "0 0 0 000"
 
 								"border_default"	""
 								"border_armed"		"MainMenuButtonArmed"
@@ -1020,9 +1024,9 @@
 
 								"paintbackground"	"0"
 	
-								"defaultFgColor_override" ""
+								"defaultFgColor_override" "0 0 0 000"
 								"armedFgColor_override" "235 226 202 255"
-								"depressedFgColor_override" ""
+								"depressedFgColor_override" "0 0 0 000"
 
 								"border_default"	""
 								"border_armed"		"MainMenuButtonArmed"
@@ -1171,9 +1175,9 @@
 
 								"paintbackground"	"0"
 	
-								"defaultFgColor_override" ""
+								"defaultFgColor_override" "0 0 0 000"
 								"armedFgColor_override" "235 226 202 255"
-								"depressedFgColor_override" ""
+								"depressedFgColor_override" "0 0 0 000"
 
 								"border_default"	""
 								"border_armed"		"MainMenuButtonArmed"
@@ -1322,9 +1326,9 @@
 
 								"paintbackground"	"0"
 	
-								"defaultFgColor_override" ""
+								"defaultFgColor_override" "0 0 0 000"
 								"armedFgColor_override" "235 226 202 255"
-								"depressedFgColor_override" ""
+								"depressedFgColor_override" "0 0 0 000"
 
 								"border_default"	""
 								"border_armed"		"MainMenuButtonArmed"
@@ -1473,9 +1477,9 @@
 
 								"paintbackground"	"0"
 	
-								"defaultFgColor_override" ""
+								"defaultFgColor_override" "0 0 0 000"
 								"armedFgColor_override" "235 226 202 255"
-								"depressedFgColor_override" ""
+								"depressedFgColor_override" "0 0 0 000"
 
 								"border_default"	""
 								"border_armed"		"MainMenuButtonArmed"
