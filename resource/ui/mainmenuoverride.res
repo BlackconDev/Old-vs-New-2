@@ -320,10 +320,10 @@
 				"image_drawcolor"   "117 107 94 255"
 				"image_armedcolor"  "235 226 202 255"
 			}					
-			"RandomPinnerThatWorks" //leftover
+			"BackgroundShadow"
 			{
 				"ControlName"	"CExButton"
-				"fieldName"		"RandomPinnerThatWorks"
+				"fieldName"		"BackgroundShadow"
 
 
 
@@ -344,14 +344,15 @@
 			{
 				"ControlName"		"EditablePanel"
 				"fieldName"		"RandomImagePanel2"
+				"xpos"		"0"
 				"zpos"		"1"
-				xpos 0
 				"wide"		"182"
 				"tall"		"184"
 				"visible"	"1"	
-				paintBackground "1"	
-				bgcolor_override "0 0 0 150"
-				"pin_to_sibling"		"RandomPinnerThatWorks"
+				"paintBackground" "1"	
+				
+				"bgcolor_override"		"0 0 0 150"
+				"pin_to_sibling"		"BackgroundShadow"
 			
 			} 
 			
@@ -361,7 +362,7 @@
 				"fieldName"		"MinmodeButton"
 				"xpos"			"-150"
 				"ypos"			"15"
-				"zpos"			"450"
+				"zpos"			"1002"
 				"wide"			"29"
 				"tall"			"25"
 				"autoResize"	"0"
@@ -403,15 +404,15 @@
 			{
 				"ControlName"   "CExLabel"
 				"fieldName"     "MinmodeLabel"
-				"font"          "HudFontMediumBigBold"
+				"font"          "HudFontSmallBold"
 				"labelText"     "Minmode"
 				"textAlignment" "west"
 				
 				"xpos"			"50"
-				"ypos"			"15"
+				"ypos"			"10"
 				"zpos"			"450"
 				
-				"wide"          "140"
+				"wide"          "120"
 				"tall"          "30"
 				
 				"autoResize"    "0"
