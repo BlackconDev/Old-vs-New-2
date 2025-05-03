@@ -84,7 +84,7 @@
 		"tall"			"350"
 		"wide"			"400"
 
-		"border"		"TFFatLineBorderOpaque"
+		"border"		" "
 		"BGImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -420,9 +420,9 @@
 
 								"paintbackground"	"0"
 	
-								"defaultFgColor_override" ""
+								"defaultFgColor_override" "0 0 0 000"
 								"armedFgColor_override" "235 226 202 255"
-								"depressedFgColor_override" ""
+								"depressedFgColor_override" "0 0 0 000"
 
 								"border_default"	""
 								"border_armed"		"MainMenuButtonArmed"
@@ -1570,7 +1570,7 @@
 			"textAlignment"	"center"
 			"xpos"			"c-155"
 			"ypos"			"388"
-			"zpos"			"91"
+			"zpos"			"1004"
 			"wide"			"100"
 			"tall"			"20"
 			"autoResize"	"1"
@@ -1585,7 +1585,7 @@
 		"fieldName"		"ServerSettings"
 		"xpos"			"c-170"
 		"ypos"			"387"
-		"zpos"			"90"
+		"zpos"			"1003"
 		"wide"			"20"
 		"tall"			"20"
 		"autoResize"	"0"
