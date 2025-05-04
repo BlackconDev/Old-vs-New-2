@@ -271,6 +271,7 @@
 			"toggle"
 			{
 				"ControlName"	"Button"
+				"fieldName"		"toggle"
 				"xpos"		"0"
 				"wide"		"f0"
 				"tall"		"184" // defines the tall
@@ -296,54 +297,25 @@
 				"image_drawcolor"   "117 107 94 255"
 				"image_armedcolor"  "235 226 202 255"
 			}
-			"buttonimage"
-			{
-				"fieldName" "buttonimage"
-				"ControlName"	"imagepanel"
-				"xpos"			"0"//359
-				"ypos"			"0"//179
-				"zpos"			"0"
-				"mouseinputenabled" "0"
-				"wide"			"64"
-				"tall"			"512"
-				"zpos" "300"
-				"visible"		"1"
-				"scaleimage" "1"
-				"border_default"    "MainMenuButtonDefault"
-				"border_armed"      "MainMenuButtonArmed"
-				"paintbackground"   "0"
-					
-				"defaultFgColor_override" "46 43 42 255"
-				"armedFgColor_override" "235 226 202 255"
-				"depressedFgColor_override" "46 43 42 255"
-					
-				"image_drawcolor"   "117 107 94 255"
-				"image_armedcolor"  "235 226 202 255"
-			}					
 			"BackgroundShadow"
 			{
 				"ControlName"	"CExButton"
 				"fieldName"		"BackgroundShadow"
 
-
-
-
 				"xpos"		"12"
-				ypos 0
-
-
+				"ypos"		"0"
 
 				"wide"		"90"
 				"tall"		"24"
-				"visible"		"0"
+				"visible"	"0"
 
 				"alpha" "0"
 				"pinCorner"		"2"
 			}		
-			"RandomImagePanel2"
+			"BackgroundShadow"
 			{
 				"ControlName"		"EditablePanel"
-				"fieldName"		"RandomImagePanel2"
+				"fieldName"			"BackgroundShadow2"
 				"xpos"		"0"
 				"zpos"		"1"
 				"wide"		"182"
@@ -355,72 +327,44 @@
 				"pin_to_sibling"		"BackgroundShadow"
 			
 			} 
-			
 			"MinmodeButton"	
 			{
-				"ControlName"	"CExImageButton"
+				"ControlName"	"CExButton"
 				"fieldName"		"MinmodeButton"
 				"xpos"			"-150"
 				"ypos"			"15"
 				"zpos"			"1002"
-				"wide"			"29"
-				"tall"			"25"
+				"wide"			"85"
+				"tall"			"30"
 				"autoResize"	"0"
 				"pinCorner"		"3"
 				"visible"		"1"
 				"enabled"		"1"
 				"tabPosition"	"0"
-				"labelText"		""
-				"font"			"HudFontSmallBold"
-				"textAlignment"	"west"
+				"font"          "HudFontSmallBold"
+				"labelText"     "Minmode"
+				"textAlignment"	"center"
 				"textinsetx"	"25"
 				"use_proportional_insets" "1"
 				"dulltext"		"0"
 				"brighttext"	"0"
 				"default"		"1"
 				
-				"Command"		"engine toggle cl_hud_minmode"
+				"mouseinputenabled" "1"
+				"button_activation_type"	"1"
+				"command"		"url https://www.youtube.com/watch?v=D390gSsy5Qk"
 
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 				
-				"image_drawcolor"	"235 226 202 255"
-				"SubImage"
-				{
-					"ControlName"	"ImagePanel"
-					"fieldName"		"SubImage"
-					"xpos"			"6"
-					"ypos"			"6"
-					"zpos"			"1"
-					"wide"			"14"
-					"tall"			"14"
-					"visible"		"1"
-					"enabled"		"1"
-					"scaleImage"	"1"
-					"image"			"..\vgui\replay\thumbnails\glyph_hudmode_default"
-				}			
+				"paintbackground"	"0"
+				"defaultFgColor_override" "46 43 42 255"
+				"armedFgColor_override" "235 226 202 255"
+				"depressedFgColor_override" "46 43 42 255"
+
+				"border_default"	"MainMenuButtonDefault"
+				"border_armed"		"MainMenuButtonArmed"
 			}		
-			"MinmodeLabel"
-			{
-				"ControlName"   "CExLabel"
-				"fieldName"     "MinmodeLabel"
-				"font"          "HudFontSmallBold"
-				"labelText"     "Minmode"
-				"textAlignment" "west"
-				
-				"xpos"			"50"
-				"ypos"			"10"
-				"zpos"			"450"
-				
-				"wide"          "120"
-				"tall"          "30"
-				
-				"autoResize"    "0"
-				"pinCorner"     "0"
-				"visible"       "1"
-				"enabled"       "1"
-				"fgcolor_override"  "235 227 203 255"
-			}			
 	}
     "Background"
     {
