@@ -268,14 +268,14 @@
 			"BottomStats"
 			{"visible"	"0"}	
 			
-			"toggle"
+			"toggleButton"
 			{
 				"ControlName"	"CExButton"
-				"fieldName"		"toggle"
-				"xpos"		"0"
+				"fieldName"		"toggleButton"
+				"xpos"		"3"
 				"zpos"		"1003"
 				"wide"		"f0"
-				"tall"		"184" // defines the tall
+				"tall"		"187" // defines the tall
 				"visible"	"1"
 				"labelText"	"<"
 				"textinsetx" "-8"
@@ -304,7 +304,7 @@
 				"fieldName"		"BackgroundShadow"
 
 				"xpos"		"8"
-				"ypos"		"0"
+				"ypos"		"2"
 
 				"wide"		"90"
 				"tall"		"24"
@@ -312,19 +312,19 @@
 
 				"alpha" "0"
 				"pinCorner"		"2"
-			}		
-			"BackgroundShadow2"
+			}	
+			"BackgroundBorder"
 			{
 				"ControlName"		"EditablePanel"
-				"fieldName"			"BackgroundShadow2"
+				"fieldName"			"BackgroundBorder"
 				"xpos"		"0"
-				"zpos"		"1"
-				"wide"		"182"
+				"zpos"		"2"
+				"wide"		"176"
 				"tall"		"184"
 				"visible"	"1"	
 				"paintBackground" "1"	
-				
-				"bgcolor_override"		"0 0 0 150"
+		
+				"border"		"TFFatLineBorderOpaque"
 				"pin_to_sibling"		"BackgroundShadow"
 			
 			} 
