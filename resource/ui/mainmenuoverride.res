@@ -288,7 +288,7 @@
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 				
-				"paintbackground"   "2"
+				"paintbackground"   "0"
 				
 				"defaultFgColor_override" "46 43 42 255"
 				"armedFgColor_override" "235 226 202 255"
@@ -327,12 +327,29 @@
 				"pin_to_sibling"		"BackgroundShadow"
 			
 			} 
+			"SpecialConfigLabel"
+			{
+				"ControlName"   "CExLabel"
+				"fieldName"     "SpecialConfigLabel"
+				"font"          "HudFontSmallBold"
+				"labelText"     "Tool Box!"
+				"textAlignment" "center"
+				"xpos"          "-135"
+				"ypos"          "15"
+				"wide"          "140"
+				"tall"          "30"
+				"autoResize"    "0"
+				"pinCorner"     "0"
+				"visible"       "1"
+				"enabled"       "1"
+				"fgcolor_override"  "235 227 203 255"
+			}
 			"MinmodeButton"	
 			{
 				"ControlName"	"CExButton"
 				"fieldName"		"MinmodeButton"
 				"xpos"			"-150"
-				"ypos"			"15"
+				"ypos"			"35"
 				"zpos"			"1002"
 				"wide"			"85"
 				"tall"			"30"
@@ -340,7 +357,6 @@
 				"pinCorner"		"3"
 				"visible"		"1"
 				"enabled"		"1"
-				"tabPosition"	"0"
 				"font"          "HudFontSmallBold"
 				"labelText"     "Minmode"
 				"textAlignment"	"center"
@@ -348,16 +364,123 @@
 				"use_proportional_insets" "1"
 				"dulltext"		"0"
 				"brighttext"	"0"
-				"default"		"1"
+
+				"paintbackground"	"0"
 				
-				"mouseinputenabled" "1"
-				"actionsignallevel"		"4"
+				"actionsignallevel"	"2"
 				"command"		"engine toggle cl_hud_minmode"
 
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 				
+				"defaultFgColor_override" "46 43 42 255"
+				"armedFgColor_override" "235 226 202 255"
+				"depressedFgColor_override" "46 43 42 255"
+
+				"border_default"	"MainMenuButtonDefault"
+				"border_armed"		"MainMenuButtonArmed"
+			}
+			"MapVoteFixes0"	
+			{
+				"ControlName"	"CExButton"
+				"fieldName"		"MapVoteFixes0"
+				"xpos"			"-150"
+				"ypos"			"65"
+				"zpos"			"1002"
+				"wide"			"35"
+				"tall"			"35"
+				"autoResize"	"0"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"font"          "HudFontSmallBold"
+				"labelText"     "1"
+				"textAlignment"	"center"
+				"textinsetx"	"25"
+				"use_proportional_insets" "1"
+				"dulltext"		"0"
+				"brighttext"	"0"
+
 				"paintbackground"	"0"
+				
+				"actionsignallevel"	"2"
+				"command"		"engine next_map_vote 0"
+
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				"defaultFgColor_override" "46 43 42 255"
+				"armedFgColor_override" "235 226 202 255"
+				"depressedFgColor_override" "46 43 42 255"
+
+				"border_default"	"MainMenuButtonDefault"
+				"border_armed"		"MainMenuButtonArmed"
+			}
+			"MapVoteFixes1"	
+			{
+				"ControlName"	"CExButton"
+				"fieldName"		"MapVoteFixes1"
+				"xpos"			"-110"
+				"ypos"			"65"
+				"zpos"			"1002"
+				"wide"			"35"
+				"tall"			"35"
+				"autoResize"	"0"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"font"          "HudFontSmallBold"
+				"labelText"     "2"
+				"textAlignment"	"center"
+				"textinsetx"	"25"
+				"use_proportional_insets" "1"
+				"dulltext"		"0"
+				"brighttext"	"0"
+
+				"paintbackground"	"0"
+				
+				"actionsignallevel"	"2"
+				"command"		"engine next_map_vote 1"
+
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				"defaultFgColor_override" "46 43 42 255"
+				"armedFgColor_override" "235 226 202 255"
+				"depressedFgColor_override" "46 43 42 255"
+
+				"border_default"	"MainMenuButtonDefault"
+				"border_armed"		"MainMenuButtonArmed"
+			}	
+			"MapVoteFixes2"	
+			{
+				"ControlName"	"CExButton"
+				"fieldName"		"MapVoteFixes2"
+				"xpos"			"-80"
+				"ypos"			"65"
+				"zpos"			"1002"
+				"wide"			"35"
+				"tall"			"35"
+				"autoResize"	"0"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"font"          "HudFontSmallBold"
+				"labelText"     "3"
+				"textAlignment"	"center"
+				"textinsetx"	"25"
+				"use_proportional_insets" "1"
+				"dulltext"		"0"
+				"brighttext"	"0"
+
+				"paintbackground"	"0"
+				
+				"actionsignallevel"	"2"
+				"command"		"engine next_map_vote 2"
+
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
+				
 				"defaultFgColor_override" "46 43 42 255"
 				"armedFgColor_override" "235 226 202 255"
 				"depressedFgColor_override" "46 43 42 255"
@@ -365,15 +488,32 @@
 				"border_default"	"MainMenuButtonDefault"
 				"border_armed"		"MainMenuButtonArmed"
 			}		
+			"MapvotefixesLabel"
+			{
+				"ControlName"   "CExLabel"
+				"fieldName"     "MapvotefixesLabel"
+				"font"          "HudFontSmallBold"
+				"labelText"     "Casual Vote Fix!"
+				"textAlignment" "center"
+				"xpos"          "-135"
+				"ypos"          "85"
+				"wide"          "140"
+				"tall"          "30"
+				"autoResize"    "0"
+				"pinCorner"     "0"
+				"visible"       "1"
+				"enabled"       "1"
+				"fgcolor_override"  "235 227 203 255"
+			}			
 	}
     "Background"
     {
         "ControlName"   "ScalableImagePanel"
         "fieldName"     "Background"
-        "xpos"          "cs-0.5"
+        "xpos"          "cs-0.4"
         "ypos"          "0"
         "zpos"          "-200"
-        "wide"          "o1.6"
+        "wide"          "o1.7"
         "tall"          "f0"
         "visible"       "0"
         "enabled"       "1"
@@ -2390,57 +2530,8 @@
             }               
         }
     }   
-	"MinmodeButton"				//LEFT END BUTTON TOOLBAR -------------------------------------------------------------------
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"MinmodeButton"
-		"xpos"			"c-220+273-12-27"	//4:3
-		if_wider
-        {
-            "xpos"		"c-234+273-12"
-        }
-		"ypos"			"437"
-		"zpos"			"-1"
-		"wide"			"29"
-		"tall"			"25"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		""
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"west"
-		"textinsetx"	"25"
-		"use_proportional_insets" "1"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"Command"		"engine toggle cl_hud_minmode"
-
-		"navUp"			"Notifications_Panel"
-		"navLeft"		"ReportBugButton"
-		"navRight"		"TF2SettingsButton"
-
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		
-		"image_drawcolor"	"235 226 202 255"
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"6"
-			"ypos"			"6"
-			"zpos"			"1"
-			"wide"			"14"
-			"tall"			"14"
-			"visible"		"1"
-			"enabled"		"1"
-			"scaleImage"	"1"
-			"image"			"..\vgui\replay\thumbnails\glyph_hudmode_default"
-		}			
-	}			
+	//LEFT END BUTTON TOOLBAR -------------------------------------------------------------------
+	
 	"SettingsButton"				
 	{
 		"ControlName"	"CExImageButton"
