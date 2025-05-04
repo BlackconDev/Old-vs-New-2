@@ -270,7 +270,7 @@
 			
 			"toggle"
 			{
-				"ControlName"	"Button"
+				"ControlName"	"CExButton"
 				"fieldName"		"toggle"
 				"xpos"		"0"
 				"wide"		"f0"
@@ -290,12 +290,12 @@
 				
 				"paintbackground"   "2"
 				
-				"defaultFgColor_override"	 "46 43 42 255"
-				"armedFgColor_override"		 "235 226 202 255"
-				"depressedFgColor_override"  "46 43 42 255"
-				
-				"image_drawcolor"   "117 107 94 255"
-				"image_armedcolor"  "235 226 202 255"
+				"defaultFgColor_override" "46 43 42 255"
+				"armedFgColor_override" "235 226 202 255"
+				"depressedFgColor_override" "46 43 42 255"
+
+				"border_default"	"MainMenuButtonDefault"
+				"border_armed"		"MainMenuButtonArmed"
 			}
 			"BackgroundShadow"
 			{
@@ -312,7 +312,7 @@
 				"alpha" "0"
 				"pinCorner"		"2"
 			}		
-			"BackgroundShadow"
+			"BackgroundShadow2"
 			{
 				"ControlName"		"EditablePanel"
 				"fieldName"			"BackgroundShadow2"
@@ -351,8 +351,8 @@
 				"default"		"1"
 				
 				"mouseinputenabled" "1"
-				"button_activation_type"	"1"
-				"command"		"url https://www.youtube.com/watch?v=D390gSsy5Qk"
+				"actionsignallevel"		"4"
+				"command"		"engine toggle cl_hud_minmode"
 
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
