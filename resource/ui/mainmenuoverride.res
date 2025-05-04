@@ -331,11 +331,12 @@
 			{
 				"ControlName"   "CExLabel"
 				"fieldName"     "SpecialConfigLabel"
-				"font"          "HudFontSmallBold"
+				"font"          "HudFontMediumBigBold"
 				"labelText"     "Tool Box!"
 				"textAlignment" "center"
-				"xpos"          "-135"
-				"ypos"          "15"
+				"xpos"          "50"
+				"zpos"			"1004"
+				"ypos"          "10"
 				"wide"          "140"
 				"tall"          "30"
 				"autoResize"    "0"
@@ -351,7 +352,7 @@
 				"xpos"			"-150"
 				"ypos"			"35"
 				"zpos"			"1002"
-				"wide"			"85"
+				"wide"			"107"
 				"tall"			"30"
 				"autoResize"	"0"
 				"pinCorner"		"3"
@@ -492,11 +493,12 @@
 			{
 				"ControlName"   "CExLabel"
 				"fieldName"     "MapvotefixesLabel"
-				"font"          "HudFontSmallBold"
+				"font"          "HudFontMediumBigBold"
 				"labelText"     "Casual Vote Fix!"
 				"textAlignment" "center"
-				"xpos"          "-135"
+				"xpos"          "-25"
 				"ypos"          "85"
+				"zpos"			"1004"
 				"wide"          "140"
 				"tall"          "30"
 				"autoResize"    "0"
@@ -505,6 +507,42 @@
 				"enabled"       "1"
 				"fgcolor_override"  "235 227 203 255"
 			}			
+			"InvisPlayerFix"	
+			{
+				"ControlName"	"CExButton"
+				"fieldName"		"InvisPlayerFix"
+				"xpos"			"-150"
+				"ypos"			"105"
+				"zpos"			"1002"
+				"wide"			"107"
+				"tall"			"30"
+				"autoResize"	"0"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"font"          "HudFontSmallBold"
+				"labelText"     "Invis Player Fix"
+				"textAlignment"	"center"
+				"textinsetx"	"25"
+				"use_proportional_insets" "1"
+				"dulltext"		"0"
+				"brighttext"	"0"
+
+				"paintbackground"	"0"
+				
+				"actionsignallevel"	"2"
+				"command"		"engine record demo; stop"
+
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				"defaultFgColor_override" "46 43 42 255"
+				"armedFgColor_override" "235 226 202 255"
+				"depressedFgColor_override" "46 43 42 255"
+
+				"border_default"	"MainMenuButtonDefault"
+				"border_armed"		"MainMenuButtonArmed"
+			}		
 	}
     "Background"
     {
