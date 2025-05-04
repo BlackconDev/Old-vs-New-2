@@ -273,6 +273,7 @@
 				"ControlName"	"CExButton"
 				"fieldName"		"toggle"
 				"xpos"		"0"
+				"zpos"		"1003"
 				"wide"		"f0"
 				"tall"		"184" // defines the tall
 				"visible"	"1"
@@ -302,7 +303,7 @@
 				"ControlName"	"CExButton"
 				"fieldName"		"BackgroundShadow"
 
-				"xpos"		"12"
+				"xpos"		"8"
 				"ypos"		"0"
 
 				"wide"		"90"
@@ -331,13 +332,13 @@
 			{
 				"ControlName"   "CExLabel"
 				"fieldName"     "SpecialConfigLabel"
-				"font"          "HudFontMediumBigBold"
+				"font"          "HudFontMediumBold"
 				"labelText"     "Tool Box!"
 				"textAlignment" "center"
-				"xpos"          "50"
+				"xpos"          "13"
 				"zpos"			"1004"
 				"ypos"          "10"
-				"wide"          "140"
+				"wide"          "150"
 				"tall"          "30"
 				"autoResize"    "0"
 				"pinCorner"     "0"
@@ -352,7 +353,7 @@
 				"xpos"			"-150"
 				"ypos"			"35"
 				"zpos"			"1002"
-				"wide"			"107"
+				"wide"			"125"
 				"tall"			"30"
 				"autoResize"	"0"
 				"pinCorner"		"3"
@@ -421,7 +422,7 @@
 			{
 				"ControlName"	"CExButton"
 				"fieldName"		"MapVoteFixes1"
-				"xpos"			"-110"
+				"xpos"			"-105"
 				"ypos"			"65"
 				"zpos"			"1002"
 				"wide"			"35"
@@ -457,7 +458,7 @@
 			{
 				"ControlName"	"CExButton"
 				"fieldName"		"MapVoteFixes2"
-				"xpos"			"-80"
+				"xpos"			"-60"
 				"ypos"			"65"
 				"zpos"			"1002"
 				"wide"			"35"
@@ -493,11 +494,11 @@
 			{
 				"ControlName"   "CExLabel"
 				"fieldName"     "MapvotefixesLabel"
-				"font"          "HudFontMediumBigBold"
+				"font"          "HudFontSmallBold"
 				"labelText"     "Casual Vote Fix!"
 				"textAlignment" "center"
-				"xpos"          "-25"
-				"ypos"          "85"
+				"xpos"          "15"
+				"ypos"          "89"
 				"zpos"			"1004"
 				"wide"          "140"
 				"tall"          "30"
@@ -512,15 +513,15 @@
 				"ControlName"	"CExButton"
 				"fieldName"		"InvisPlayerFix"
 				"xpos"			"-150"
-				"ypos"			"105"
+				"ypos"			"110"
 				"zpos"			"1002"
-				"wide"			"107"
+				"wide"			"125"
 				"tall"			"30"
 				"autoResize"	"0"
 				"pinCorner"		"3"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"          "HudFontSmallBold"
+				"font"          "HudFontSmallestBold"
 				"labelText"     "Invis Player Fix"
 				"textAlignment"	"center"
 				"textinsetx"	"25"
@@ -542,7 +543,43 @@
 
 				"border_default"	"MainMenuButtonDefault"
 				"border_armed"		"MainMenuButtonArmed"
-			}		
+			}
+			"HudReload"	
+			{
+				"ControlName"	"CExButton"
+				"fieldName"		"HudReload"
+				"xpos"			"-150"
+				"ypos"			"145"
+				"zpos"			"1002"
+				"wide"			"125"
+				"tall"			"30"
+				"autoResize"	"0"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"font"          "HudFontSmallestBold"
+				"labelText"     "Hud Reload"
+				"textAlignment"	"center"
+				"textinsetx"	"25"
+				"use_proportional_insets" "1"
+				"dulltext"		"0"
+				"brighttext"	"0"
+
+				"paintbackground"	"0"
+				
+				"actionsignallevel"	"2"
+				"command"		"engine hud_reloadscheme; toggle mat_aaquality; toggle mat_antialias"
+
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				"defaultFgColor_override" "46 43 42 255"
+				"armedFgColor_override" "235 226 202 255"
+				"depressedFgColor_override" "46 43 42 255"
+
+				"border_default"	"MainMenuButtonDefault"
+				"border_armed"		"MainMenuButtonArmed"
+			}			
 	}
     "Background"
     {
@@ -2603,7 +2640,6 @@
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"	"MainMenuSubButtonBorder"
 		
 		"image_drawcolor"	"235 226 202 255"
 		"SubImage"
