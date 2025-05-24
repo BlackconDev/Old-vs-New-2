@@ -50,6 +50,8 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"bgcolor_override"	"0 0 0 220"
+		"fgcolor"			"0 0 0 255"
 		"tabPosition"		"0"
 		"labelText"			">"
 

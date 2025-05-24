@@ -21,7 +21,7 @@
 		"xpos"			"c-330"
 		"ypos"			"17"
 		"zpos"			"445"
-		"wide"			"144"
+		"wide"			"185"
 		"tall"			"34"
 		"autoResize"	"0"
 		"pinCorner"		"3"

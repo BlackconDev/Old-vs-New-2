@@ -102,10 +102,10 @@
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
 		
-		"xpos"			"-5"	[$WIN32]
+		"xpos"			"c-340"	[$WIN32]
 		"ypos"			"r255"	[$WIN32]
-		"zpos"			"2"		
-		"wide"			"145"
+		"zpos"			"2"
+		"wide"			"200"
 		"tall"			"200"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -113,7 +113,7 @@
 		"enabled"		"1"
 		
 		"render_texture"	"0"
-		"fov"			"12"
+		"fov"			"15"
 		"allow_rot"		"1"
 
 		"disable_speak_event"	"1"
@@ -143,12 +143,12 @@
 			}
 			"Scout"
 			{
-				"fov"			"23"
-				"angles_x"		"-0"
-				"angles_y"		"200"
+				"fov"			"25"
+				"angles_x"		"-10"
+				"angles_y"		"215"
 				"angles_z"		"0"
-				"origin_x"		"200"
-				"origin_y"		"-13"
+				"origin_x"		"215"
+				"origin_y"		"20"
 				"origin_z"		"-75"
 			}
 			"Sniper"
@@ -157,8 +157,8 @@
 				"angles_x"		"-0"
 				"angles_y"		"165"
 				"angles_z"		"0"
-				"origin_x"		"180"
-				"origin_y"		"-20"
+				"origin_x"		"250"
+				"origin_y"		"15"
 				"origin_z"		"-75"
 			}
 			"Soldier"
@@ -167,8 +167,8 @@
 				"angles_x"		"-0"
 				"angles_y"		"165"
 				"angles_z"		"0"
-				"origin_x"		"180"
-				"origin_y"		"-18"
+				"origin_x"		"250"
+				"origin_y"		"15"
 				"origin_z"		"-75"
 			}
 			"Demoman"
@@ -177,8 +177,8 @@
 				"angles_x"		"-0"
 				"angles_y"		"165"
 				"angles_z"		"0"
-				"origin_x"		"180"
-				"origin_y"		"-20"
+				"origin_x"		"250"
+				"origin_y"		"15"
 				"origin_z"		"-75"
 			}
 			"Medic"
@@ -187,8 +187,8 @@
 				"angles_x"		"-0"
 				"angles_y"		"195"
 				"angles_z"		"0"
-				"origin_x"		"180"
-				"origin_y"		"-20"
+				"origin_x"		"250"
+				"origin_y"		"15"
 				"origin_z"		"-75"
 			}
 			"Heavy"
@@ -197,19 +197,19 @@
 				"angles_x"		"-0"
 				"angles_y"		"195"
 				"angles_z"		"0"
-				"origin_x"		"180"
-				"origin_y"		"-15"
-				"origin_z"		"-80"
+				"origin_x"		"250"
+				"origin_y"		"15"
+				"origin_z"		"-75"
 			}
 			"Pyro"
 			{
 				"fov"			"23"
-				"angles_x"		"-0"
-				"angles_y"		"165"
+				"angles_x"		"0"
+				"angles_y"		"205"
 				"angles_z"		"0"
-				"origin_x"		"180"
-				"origin_y"		"-20"
-				"origin_z"		"-75"
+				"origin_x"		"250"
+				"origin_y"		"20"
+				"origin_z"		"-70"
 			}
 			"Spy"
 			{
@@ -217,8 +217,8 @@
 				"angles_x"		"-0"
 				"angles_y"		"165"
 				"angles_z"		"0"
-				"origin_x"		"180"
-				"origin_y"		"-20"
+				"origin_x"		"250"
+				"origin_y"		"15"
 				"origin_z"		"-75"
 			}
 			"Engineer"
@@ -227,8 +227,8 @@
 				"angles_x"		"-0"
 				"angles_y"		"165"
 				"angles_z"		"0"
-				"origin_x"		"180"
-				"origin_y"		"-20"
+				"origin_x"		"250"
+				"origin_y"		"15"
 				"origin_z"		"-75"
 			}
 		}
