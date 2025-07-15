@@ -314,7 +314,7 @@
 				"ControlName"   "CExLabel"
 				"fieldName"     "SpecialConfigLabel"
 				"font"          "HudFontMediumBold"
-				"labelText"     "Tool Box!"
+				"labelText"     "Dev tools"
 				"textAlignment" "center"
 				"xpos"          "13"
 				"zpos"			"1004"

@@ -15,20 +15,20 @@
 	}
 	
 	"Background"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"Background"
-			"xpos"			"-60"
-			"ypos"			"-40"
-			"zpos"			"50"
-			"wide"			"1120"
-			"tall"			"1120" 
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"/replay/thumbnails/mm/colour"
-			"scaleImage"	"1"
-			"proportionaltoparent" "1"
-		}
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Background"
+		"xpos"			"-60"
+		"ypos"			"-40"
+		"zpos"			"50"
+		"wide"			"1120"
+		"tall"			"1120" 
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"/replay/thumbnails/mm/colour"
+		"scaleImage"	"1"
+		"proportionaltoparent" "1"
+	}
 
 	"MvMLogoImage"
 	{
@@ -50,7 +50,7 @@
 	{
 		//"ControlName"	"EditablePanel"
 		"fieldName"		"MannUpGroupBox"
-		"xpos"		"110"
+		"xpos"		"c-290"
 		"ypos"		"280"
 		"zpos"		"100"
 		"wide"		"250"
@@ -116,7 +116,7 @@
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"PlayNowButton"
-			"xpos"			"25"
+			"xpos"			"10"
 			"ypos"			"25"
 			"zpos"			"20"
 			"wide"			"178"
@@ -178,7 +178,7 @@
 	{
 		//"ControlName"	"EditablePanel"
 		"fieldName"		"MannUpGroupBox"
-		"xpos"		"310"
+		"xpos"		"c-110"
 		"ypos"		"280"
 		"zpos"		"100"
 		"wide"		"250"
@@ -366,10 +366,10 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ExitButton"
-		"xpos"			"101"
+		"xpos"			"c-290"
 		"ypos"			"436"
 		"zpos"			"201"
-		"wide"			"130"
+		"wide"			"200"
 		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"3"
@@ -404,10 +404,10 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"Guidebook"
-		"xpos"			"238"
+		"xpos"			"c150"
 		"ypos"			"436"
 		"zpos"			"201"
-		"wide"			"190"
+		"wide"			"200"
 		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"3"
@@ -438,11 +438,11 @@
 		"depressedFgColor_override" "46 43 42 255"
 	}
 	
-	"Panel"
+	"MainWhiteBackground"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"Panel"
-		"xpos"			"123"
+		"fieldName"		"MainWhiteBackground"
+		"xpos"			"c-290"
 		"ypos"			"61"
 		"zpos"			"80"
 		"wide"			"400"
@@ -458,7 +458,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"MvMImage"
-			"xpos"			"130"
+			"xpos"			"c-280"
 			"ypos"			"20"
 			"zpos"			"81"
 			"wide"			"385"
@@ -473,7 +473,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"Title"
-		"xpos"		"136"
+		"xpos"		"c-280"
 		"ypos"		"54"
 		"zpos"		"190"
 		"wide"		"300"
@@ -491,7 +491,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"Description"
-		"xpos"		"136"
+		"xpos"		"c-280"
 		"ypos"		"72"
 		"zpos"		"190"
 		"wide"		"300"
@@ -509,7 +509,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"Description1"
-		"xpos"		"136"
+		"xpos"		"c-280"
 		"ypos"		"86"
 		"zpos"		"190"
 		"wide"		"300"
@@ -527,7 +527,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"MannUpDescription"
-		"xpos"		"138"
+		"xpos"		"c-281"
 		"ypos"		"329"
 		"zpos"		"190"
 		"wide"		"300"
@@ -545,7 +545,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"MannUpDescription2a"
-		"xpos"		"138"
+		"xpos"		"c-281"
 		"ypos"		"343"
 		"zpos"		"190"
 		"wide"		"300"
@@ -563,7 +563,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"MannUpDescription3c"
-		"xpos"		"138"
+		"xpos"		"c-281"
 		"ypos"		"357"
 		"zpos"		"190"
 		"wide"		"300"
@@ -581,7 +581,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"BootcampDescription"
-		"xpos"		"338"
+		"xpos"		"c-85"
 		"ypos"		"329"
 		"zpos"		"190"
 		"wide"		"300"
@@ -599,13 +599,13 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"BootcampDescription1"
-		"xpos"		"338"
+		"xpos"		"c-85"
 		"ypos"		"343"
 		"zpos"		"190"
 		"wide"		"300"
 		"tall"		"50"
 		"proportionaltoparent"	"1"
-		"labeltext"		"For fun and friends!"
+		"labeltext"		"For fun with friends!"
 		"textAlignment"	"west"
 		"font"			"HudFontSmall"
 		"fgcolor_override"	"94 82 66 255"
