@@ -34,7 +34,7 @@
 	{
 		"ControlName"	"CMVMCriteriaPanel"
 		"fieldName"		"criteria"
-		"xpos"			"93"
+		"xpos"			"c-290"
 		"ypos"			"50"
 		"zpos"			"100"
 		"wide"			"f0"

@@ -678,7 +678,7 @@
         "textAlignment" "west"
         "xpos"          "c-278"
         "ypos"          "168"
-        "wide"          "140"
+        "wide"          "160"
         "tall"          "30"
         "autoResize"    "0"
         "pinCorner"     "0"
