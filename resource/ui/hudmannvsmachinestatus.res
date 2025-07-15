@@ -62,11 +62,11 @@
 		"xpos"				"c-140"
 		"ypos"				"c118"
 		"xpos_minmode"				"c140"
-		"ypos_minmode"				"c75"
+		"ypos_minmode"				"c50"
 		"wide"				"50"
 		"tall"				"32"
 		"wide_minmode"				"50"
-		"tall_minmode"				"32"
+		"tall_minmode"				"14"
 		"visible" 			"1"
 		"enabled" 			"1"
 	}
