@@ -58,8 +58,8 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r180"	[$WIN32]
-		"ypos"			"r90"	[$WIN32]
+		"xpos"			"r180"	
+		"ypos"			"r90"	
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -82,10 +82,10 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-42"	[$WIN32]
-		"ypos"			"c25"	[$WIN32]
-		"zpos"			"1"			// draw in front of ammo
-		"wide"			"85"
+		"xpos"			"c-43"	
+		"ypos"			"c25"	
+		"zpos"			"1"	
+		"wide"			"100"
 		"tall"			"5"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
@@ -1030,12 +1030,8 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r162"	[$WIN32]
-		"xpos_minmode"	"r110"	[$WIN32]
-		"ypos"			"r52"	[$WIN32]
-		"ypos_minmode"	"r30"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r74"	[$X360]
+		"xpos"			"c-43"	
+		"ypos"			"c35"		
 		"wide"			"100"
 		"tall"			"50"
 	}		
