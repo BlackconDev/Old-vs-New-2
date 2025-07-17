@@ -2592,7 +2592,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"SettingsButton"
-		"xpos"			"c-195+273-12-27"	//4:3
+		"xpos"			"c-210+273-12-27"	//4:3
 		if_wider
         {
             "xpos"		"c-210+273-12"
