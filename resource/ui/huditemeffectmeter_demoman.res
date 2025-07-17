@@ -5,10 +5,10 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-43"	[$WIN32]
-		"ypos"			"c10"	[$WIN32]
-		"wide"			"f0"
-		"tall"			"f0"
+		"xpos"			"c-43"
+		"ypos"			"c10"	
+		"wide"			"100"
+		"tall"			"120"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
@@ -37,8 +37,8 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
 		"xpos"					"12"
-		"ypos"					"43"
-		"ypos_minmode"			"37"
+		"ypos"					"95"
+		"ypos_minmode"			"95"
 		"zpos"					"2"
 		"wide"					"65"
 		"tall"					"15"
@@ -52,38 +52,16 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"fgcolor"				"TanLight"
-		"font_minmode"					"HudFontSmallBold"
+		"font_minmode"			"HudFontSmallBold"
 		"font"					"PreussischeVI20"
-	}
-
-	"ItemEffectMeter"
-	{	
-		"ControlName"			"ContinuousProgressBar"
-		"fieldName"				"ItemEffectMeter"
-		"font"					"Default"
-		"xpos"					"25"
-		"ypos"					"23"
-		"ypos_minmode"			"0"
-		"xpos_minmode"			"0"
-		"zpos"					"2"
-		"wide"					"40"
-		"wide_minmode"			"50"
-		"tall"					"6"				
-		"autoResize"			"0"
-		"pinCorner"				"0"
-		"visible"				"0"
-		"enabled"				"0"
-		"textAlignment"			"Left"
-		"dulltext"				"0"
-		"brighttext"			"0"
-	}					
+	}	
 	
 	"ItemEffectMeterCount"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
 		"xpos"					"25"
-		"ypos"					"20"
+		"ypos"					"70"
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"25"	
@@ -96,7 +74,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"fgcolor"				"TanLight"
-		"font_minmode"					"HudFontMediumBold"
-		"font"			"PreussischeVI30"
+		"font_minmode"			"HudFontMediumBold"
+		"font"					"PreussischeVI30"
 	}
 }
