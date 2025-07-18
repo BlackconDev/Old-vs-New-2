@@ -240,12 +240,12 @@
 			"ControlName"	"CMatchHistoryEntryPanel"
 			"fieldName"		"ExpandableToolBar"
 			
-			"xpos" "r12"
-			"ypos" "cs-0.5"
-			"zpos" "1000"
+			"xpos" 		"r12"
+			"ypos" 		"163"
+			"zpos"		"1000"
 			
 			"wide"		"12"
-			"tall"		"195"	//same as collapsed_height?
+			"tall"		"258"	//same as collapsed_height?
 			"visible"	"1"
 			
 			"collapsed_height"	"12"	// actual area show by default
@@ -265,10 +265,11 @@
 			{
 				"ControlName"	"CExButton"
 				"fieldName"		"toggleButton"
-				"xpos"		"3"
-				"zpos"		"1003"
-				"wide"		"f0"
-				"tall"		"187" // defines the tall
+				"xpos"		"1"
+				"ypos"		"2"
+				"zpos"		"1"
+				"wide"		"16"
+				"tall"      "120"
 				"visible"	"1"
 				"labelText"	"<"
 				"textinsetx" "-8"
@@ -310,10 +311,10 @@
 			{
 				"ControlName"		"EditablePanel"
 				"fieldName"			"BackgroundBorder"
-				"xpos"		"-2"
+				"xpos"		"-3"
 				"zpos"		"2"
 				"wide"		"176"
-				"tall"		"195"
+				"tall"		"258"
 				"visible"	"1"	
 				"paintBackground" "1"	
 		
@@ -329,7 +330,7 @@
 				"ypos"			"46"
 				"zpos"			"3"
 				"wide"			"150"
-				"tall"			"134"
+				"tall"			"195"
 				"visible"		"1"	
 				"PaintBackgroundType"	"0"
 				"proportionaltoparent"	"1"
@@ -361,7 +362,7 @@
 				"ControlName"   "CExLabel"
 				"fieldName"     "SpecialConfigLabel"
 				"font"          "HudFontMediumBold"
-				"labelText"     "................................."
+				"labelText"     "..................................."
 				"textAlignment" "west"
 				"xpos"          "15"
 				"zpos"			"1004"
@@ -379,7 +380,7 @@
 				"ControlName"   "CExLabel"
 				"fieldName"     "SpecialConfigLabel"
 				"font"          "HudFontMediumBold"
-				"labelText"     "................................."
+				"labelText"     "..................................."
 				"textAlignment" "west"
 				"xpos"          "15"
 				"zpos"			"1004"
@@ -536,6 +537,133 @@
 				"border_default"	"MainMenuButtonDefault"
 				"border_armed"		"MainMenuButtonArmed"
 			}
+			"MapVoteFixes0"	
+			{
+				"ControlName"	"CExButton"
+				"fieldName"		"MapVoteFixes0"
+				"xpos"			"-135"
+				"ypos"			"175"
+				"zpos"			"1002"
+				"wide"			"35"
+				"tall"			"35"
+				"autoResize"	"0"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"font"          "HudFontSmallBold"
+				"labelText"     "1"
+				"textAlignment"	"center"
+				"textinsetx"	"25"
+				"use_proportional_insets" "1"
+				"dulltext"		"0"
+				"brighttext"	"0"
+
+				"paintbackground"	"0"
+				
+				"actionsignallevel"	"2"
+				"command"		"engine next_map_vote 0"
+
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				"defaultFgColor_override" "46 43 42 255"
+				"armedFgColor_override" "235 226 202 255"
+				"depressedFgColor_override" "46 43 42 255"
+
+				"border_default"	"MainMenuButtonDefault"
+				"border_armed"		"MainMenuButtonArmed"
+			}
+			"MapVoteFixes1"	
+			{
+				"ControlName"	"CExButton"
+				"fieldName"		"MapVoteFixes1"
+				"xpos"			"-90"
+				"ypos"			"175"
+				"zpos"			"1002"
+				"wide"			"35"
+				"tall"			"35"
+				"autoResize"	"0"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"font"          "HudFontSmallBold"
+				"labelText"     "2"
+				"textAlignment"	"center"
+				"textinsetx"	"25"
+				"use_proportional_insets" "1"
+				"dulltext"		"0"
+				"brighttext"	"0"
+
+				"paintbackground"	"0"
+				
+				"actionsignallevel"	"2"
+				"command"		"engine next_map_vote 1"
+
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				"defaultFgColor_override" "46 43 42 255"
+				"armedFgColor_override" "235 226 202 255"
+				"depressedFgColor_override" "46 43 42 255"
+
+				"border_default"	"MainMenuButtonDefault"
+				"border_armed"		"MainMenuButtonArmed"
+			}	
+			"MapVoteFixes2"	
+			{
+				"ControlName"	"CExButton"
+				"fieldName"		"MapVoteFixes2"
+				"xpos"			"-45"
+				"ypos"			"175"
+				"zpos"			"1002"
+				"wide"			"35"
+				"tall"			"35"
+				"autoResize"	"0"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"font"          "HudFontSmallBold"
+				"labelText"     "3"
+				"textAlignment"	"center"
+				"textinsetx"	"25"
+				"use_proportional_insets" "1"
+				"dulltext"		"0"
+				"brighttext"	"0"
+
+				"paintbackground"	"0"
+				
+				"actionsignallevel"	"2"
+				"command"		"engine next_map_vote 2"
+
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				"defaultFgColor_override" "46 43 42 255"
+				"armedFgColor_override" "235 226 202 255"
+				"depressedFgColor_override" "46 43 42 255"
+
+				"border_default"	"MainMenuButtonDefault"
+				"border_armed"		"MainMenuButtonArmed"
+			}		
+			"MapvotefixesLabel"
+			{
+				"ControlName"   "CExLabel"
+				"fieldName"     "MapvotefixesLabel"
+				"font"          "HudFontSmallBold"
+				"labelText"     "Casual Vote Fix!"
+				"textAlignment" "center"
+				"xpos"          "30"
+				"ypos"          "205"
+				"zpos"			"1004"
+				"wide"          "140"
+				"tall"          "30"
+				"autoResize"    "0"
+				"pinCorner"     "0"
+				"visible"       "1"
+				"enabled"       "1"
+				"fgcolor_override"  "235 227 203 255"
+			}			
+			
 	}
     "Background"
     {
