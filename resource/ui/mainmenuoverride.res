@@ -346,7 +346,7 @@
 				"font"          "HudFontMediumBold"
 				"labelText"     "Extras Menu"
 				"textAlignment" "west"
-				"xpos"          "15"
+				"xpos"          "16"
 				"zpos"			"1004"
 				"ypos"          "10"
 				"wide"          "165"
@@ -479,7 +479,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"font"          "HudFontSmallestBold"
-				"labelText"     "Safemode"
+				"labelText"     "Coming Soon"
 				"textAlignment"	"center"
 				"textinsetx"	"25"
 				"use_proportional_insets" "1"
@@ -662,8 +662,43 @@
 				"visible"       "1"
 				"enabled"       "1"
 				"fgcolor_override"  "235 227 203 255"
-			}			
-			
+			}				
+			"ExtraInfoLabel"
+			{
+				"ControlName"   "CExLabel"
+				"fieldName"     "ExtraInfoLabel"
+				"font"          "HudFontSmall"
+				"labelText"     "OldvsNew  HUD"
+				"textAlignment" "center"
+				"xpos"          "30"
+				"ypos"          "235"
+				"zpos"			"1004"
+				"wide"          "140"
+				"tall"          "30"
+				"autoResize"    "0"
+				"pinCorner"     "0"
+				"visible"       "1"
+				"enabled"       "1"
+				"fgcolor_override"  "141 141 141 255"
+			}
+			"ExtraInfosuperscript2Label"
+			{
+				"ControlName"   "CExLabel"
+				"fieldName"     "ExtraInfosuperscript2Label"
+				"font"          "HudFontSmall"
+				"labelText"     "2"
+				"textAlignment" "center"
+				"xpos"          "100"
+				"ypos"          "232"
+				"zpos"			"1004"
+				"wide"          "30"
+				"tall"          "30"
+				"autoResize"    "0"
+				"pinCorner"     "0"
+				"visible"       "1"
+				"enabled"       "1"
+				"fgcolor_override"  "141 141 141 255"
+			}
 	}
     "Background"
     {
@@ -910,7 +945,11 @@
     {
         "ControlName"   "EditablePanel"
         "fieldName"     "QuestLogButton"
-        "xpos"          "c-170"
+		"xpos"			"c-170+53-25+10"	//4:3
+		if_wider
+        {
+            "xpos"		"c-170+23-25"
+        }
         "ypos"          "53"
         "zpos"          "1"
         "wide"          "32"
@@ -982,7 +1021,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_ShowButtonPanel"
-		"xpos"			"c-135"
+		"xpos"			"c-135+53-25+10"	//4:3
+		if_wider
+        {
+            "xpos"		"c-135+23-25"
+        }
 		"ypos"			"53"
 		"zpos"			"1"
 		"wide"			"32"
@@ -1430,7 +1473,11 @@
     {
         "ControlName"   "EditablePanel"
         "fieldName"     "Notifications_ShowButtonPanel"
-        "xpos"          "c-100"
+        "xpos"			"c-100+53-25+10"	//4:3
+		if_wider
+        {
+            "xpos"		"c-100+23-25"
+        }
         "ypos"          "53"
         "zpos"          "10"
         "wide"          "32"
@@ -3886,7 +3933,11 @@
 	{
 		"ControlName"	"CDashboardPartyMember"
 		"fieldName"		"PartySlot0"
-		"xpos"			"c-335"
+		"xpos"			"c-335+53-25+10"	//4:3
+		if_wider
+        {
+            "xpos"		"c-335+23-25"
+        }
 		"ypos"			"28"
 		"zpos"			"1"
 		"wide"			"50"
@@ -3907,7 +3958,11 @@
 	{
 		"ControlName"	"CDashboardPartyMember"
 		"fieldName"		"PartySlot1"
-		"xpos"			"c-275"
+		"xpos"			"c-275+53-25+10"	//4:3
+		if_wider
+        {
+            "xpos"		"c-275+23-25"
+        }
 		"ypos"			"60"
 		"zpos"			"1"
 		"wide"			"20"
@@ -3928,7 +3983,11 @@
 	{
 		"ControlName"	"CDashboardPartyMember"
 		"fieldName"		"PartySlot2"
-		"xpos"			"c-255"
+		"xpos"			"c-255+53-25+10"	//4:3
+		if_wider
+        {
+            "xpos"		"c-255+23-25"
+        }
 		"ypos"			"60"
 		"zpos"			"1"
 		"wide"			"20"
@@ -3949,7 +4008,11 @@
 	{
 		"ControlName"	"CDashboardPartyMember"
 		"fieldName"		"PartySlot3"
-		"xpos"			"c-236"
+		"xpos"			"c-236+53-25+10"	//4:3
+		if_wider
+        {
+            "xpos"		"c-236+23-25"
+        }
 		"ypos"			"60"
 		"zpos"			"1"
 		"wide"			"20"
@@ -3970,7 +4033,11 @@
 	{
 		"ControlName"	"CDashboardPartyMember"
 		"fieldName"		"PartySlot4"
-		"xpos"			"c-216"
+		"xpos"			"c-216+53-25+10"	//4:3
+		if_wider
+        {
+            "xpos"		"c-216+23-25"
+        }
 		"ypos"			"60"
 		"zpos"			"1"
 		"wide"			"20"
@@ -3991,7 +4058,11 @@
 	{
 		"ControlName"	"CDashboardPartyMember"
 		"fieldName"		"PartySlot5"
-		"xpos"			"c-197"
+		"xpos"			"c-197+53-25+10"	//4:3
+		if_wider
+        {
+            "xpos"		"c-197+23-25"
+        }
 		"ypos"			"60"
 		"zpos"			"1"
 		"wide"			"20"
@@ -4075,8 +4146,8 @@
 	"ChatPin"
 	{
 		"ControlName"    "Panel"
-		"xpos"					"c-280"
-		//"ypos"			"320+328"
+		"xpos"			 "c-280"
+		//"ypos"		"320+328"
 		"ypos"			"320+327+1+1"
 	}
 	

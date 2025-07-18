@@ -86,7 +86,7 @@
 	{
 		"ControlName"	"CPvPRankPanel" ///CMiniPVPRankPanel for another placement
 		"fieldName"		"RankPanel"
-		"xpos"			"c-234+35-12-27"	//4:3
+		"xpos"			"c-220+35-12-27"	//4:3
 		if_wider
         {
             "xpos"		"c-234+35-12"
