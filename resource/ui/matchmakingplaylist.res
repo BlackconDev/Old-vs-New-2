@@ -171,7 +171,7 @@
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
-			"labelText"     "Play Comp"
+			"labelText"     "Play Ranked"
 			"tabPosition"	"0"
 			"textinsetx"	"25"
 			"command"       "play_competitive"

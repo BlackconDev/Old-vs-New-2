@@ -42,19 +42,21 @@
 		"image"			"loadout_bottom_gradient"
 		"scaleImage"	"1"
 	}
-	"BackgroundGrayCover"
+	"BackgroundOfTheMenu"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"BackgroundGrayCover"
-		"xpos"		"0"
-		"ypos"		"0"
-		"wide"		"f0"
-		"tall"		"f0"
-		"zpos"	"20"
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Background"
+		"xpos"			"-60"
+		"ypos"			"-40"
+		"zpos"			"25"
+		"wide"			"1120"
+		"tall"			"1120"  
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"46 43 42 255"
-	}	
+		"image"			"/replay/thumbnails/mm/quickplaybackground"
+		"scaleImage"	"1"
+		"proportionaltoparent" "1"
+	}
 
 	"BackgroundQuickplay"
 	{
@@ -208,7 +210,6 @@
 								"proportionaltoparent"	"1"
 
 								"mouseinputenabled" "0"
-								"fgcolor_override"	"notogreen"
 
 								"font"			"HudFontSmallBold"
 								"labelText"		"#Gametype_Quickplay"
@@ -359,7 +360,6 @@
 								"proportionaltoparent"	"1"
 
 								"mouseinputenabled" "0"
-								"fgcolor_override"	"notogreen"
 
 								"font"			"HudFontSmallBold"
 								"labelText"		"#Gametype_Escort"
@@ -509,7 +509,6 @@
 								"proportionaltoparent"	"1"
 
 								"mouseinputenabled" "0"
-								"fgcolor_override"	"notogreen"
 
 								"font"			"HudFontSmallBold"
 								"labelText"		"#Gametype_Koth"
@@ -660,7 +659,6 @@
 								"proportionaltoparent"	"1"
 
 								"mouseinputenabled" "0"
-								"fgcolor_override"	"notogreen"
 
 								"font"			"HudFontSmallBold"
 								"labelText"		"#Gametype_AttackDefense"
@@ -811,7 +809,6 @@
 								"proportionaltoparent"	"1"
 
 								"mouseinputenabled" "0"
-								"fgcolor_override"	"notogreen"
 
 								"font"			"HudFontSmallBold"
 								"labelText"		"#Gametype_CTF"
@@ -962,7 +959,6 @@
 								"proportionaltoparent"	"1"
 
 								"mouseinputenabled" "0"
-								"fgcolor_override"	"notogreen"
 
 								"font"			"HudFontSmallBold"
 								"labelText"		"#Gametype_CP"
@@ -1113,7 +1109,6 @@
 								"proportionaltoparent"	"1"
 
 								"mouseinputenabled" "0"
-								"fgcolor_override"	"notogreen"
 
 								"font"			"HudFontSmallBold"
 								"labelText"		"#Gametype_EscortRace"
@@ -1264,7 +1259,6 @@
 								"proportionaltoparent"	"1"
 
 								"mouseinputenabled" "0"
-								"fgcolor_override"	"notogreen"
 
 								"font"			"HudFontSmallBold"
 								"labelText"		"#Gametype_Misc"
@@ -1415,7 +1409,6 @@
 								"proportionaltoparent"	"1"
 
 								"mouseinputenabled" "0"
-								"fgcolor_override"	"notogreen"
 
 								"font"			"HudFontSmallBold"
 								"labelText"		"#Gametype_Arena"
@@ -1468,6 +1461,599 @@
 								"textAlignment"	"center"
 
 								"Command"		"url https://comfig.app/quickplay/?autostart=1&autoclose=1&gm=arena"
+								"proportionaltoparent"	"1"
+								"mouseinputenabled"		"1"
+								"keyboardinputenabled"	"0"
+
+								"sound_depressed"	"UI/buttonclick.wav"
+								"sound_released"	"UI/buttonclickrelease.wav"
+
+								"paintbackground"	"0"
+	
+								"defaultFgColor_override" "0 0 0 000"
+								"armedFgColor_override" "235 226 202 255"
+								"depressedFgColor_override" "0 0 0 000"
+
+								"border_default"	""
+								"border_armed"		"MainMenuButtonArmed"
+							}
+						}
+					}
+					"9" //Teamworks.tf
+					{
+						"item"			"Frying Pan"
+						"show_market"	"0"
+						"present_time"	"9999.0"
+
+						"Background"
+						{
+							"wide"		"0"
+						}
+
+						"ItemIcon"
+						{
+							"wide"		"0"
+						}
+
+						"ItemName"
+						{
+							"xpos"		"r0"
+						}
+
+						"BuyButton"
+						{
+							"wide"		"0"
+						}
+
+						"ScrollableItemText"
+						{
+							"wide"		"0"
+						}
+
+						"Container"
+						{
+							"ControlName"	"EditablePanel"
+							"fieldname"		"Container"
+
+							"xpos"			"cs-0.5"
+							"ypos"			"40"
+
+							"wide"			"f7"
+							"tall"			"280"
+
+							"proportionaltoparent"	"1"
+
+							"GamemodeImage"
+							{
+								"ControlName"	"ImagePanel"
+								"Fieldname"		"GamemodeImage"
+
+								"xpos"			"cs-0.5"
+								"ypos"			"cs-0.57"
+								
+								"wide"			"o1"
+								"tall"			"150"
+								
+
+								"proportionaltoparent"	"1"
+
+								"image"			"../vgui/replay/thumbnails/teamworksTF"
+								"scaleimage"	"1"
+							}
+
+							"GamemodeLabel"
+							{
+								"ControlName"	"CExLabel"
+								"fieldName"		"GamemodeLabel"
+
+								"xpos"			"cs-0.5"
+								"ypos"			"0"
+								"zpos"			"2"
+
+								"wide"			"295"
+								"tall"			"25"
+
+								"visible"		"1"
+								"enabled"		"1"
+
+								"proportionaltoparent"	"1"
+
+								"mouseinputenabled" "0"
+
+								"font"			"HudFontSmallBold"
+								"labelText"		"Teamworks.tf"
+								"textAlignment"	"center"
+							}
+
+							"DescLabel"
+							{
+								"ControlName"	"CExLabel"
+								"fieldName"		"DescLabel"
+
+								"xpos"			"cs-0.5"
+								"ypos"			"r60"
+								"zpos"			"2"
+
+								"wide"			"295"
+								"tall"			"30"
+
+								"visible"		"1"
+								"enabled"		"1"
+
+								"proportionaltoparent"	"1"
+
+								"fgcolor_override"	"128 119 100 255"
+								"auto_wide_tocontents" "0"
+								"centerwrap"		   "1"
+
+								"font"			"HudFontSmallest"
+								"labelText"		"Explore the Teamworks.tf expanded catalog!"
+								"textAlignment"	"north"
+							}
+							"FindGame"
+							{
+								"ControlName"	"CExButton"
+								"fieldName"		"FindGame"
+
+								"xpos"			"cs-1"
+								"ypos"			"rs1"
+								"zpos"			"100"
+
+								"wide"			"185"
+								"tall"			"40"
+
+								"visible"		"1"
+								"enabled"		"1"
+
+								"labeltext"		"START PLAYING!"
+								"font"			"HudFontSmallBold"
+								"textAlignment"	"center"
+
+								"Command"		"url https://teamwork.tf/community/quickplay"
+								"proportionaltoparent"	"1"
+								"mouseinputenabled"		"1"
+								"keyboardinputenabled"	"0"
+
+								"sound_depressed"	"UI/buttonclick.wav"
+								"sound_released"	"UI/buttonclickrelease.wav"
+
+								"paintbackground"	"0"
+	
+								"defaultFgColor_override" "0 0 0 000"
+								"armedFgColor_override" "235 226 202 255"
+								"depressedFgColor_override" "0 0 0 000"
+
+								"border_default"	""
+								"border_armed"		"MainMenuButtonArmed"
+							}
+						}
+					}
+					"10" //ZestyServers
+					{
+						"item"			"Frying Pan"
+						"show_market"	"0"
+						"present_time"	"9999.0"
+
+						"Background"
+						{
+							"wide"		"0"
+						}
+
+						"ItemIcon"
+						{
+							"wide"		"0"
+						}
+
+						"ItemName"
+						{
+							"xpos"		"r0"
+						}
+
+						"BuyButton"
+						{
+							"wide"		"0"
+						}
+
+						"ScrollableItemText"
+						{
+							"wide"		"0"
+						}
+
+						"Container"
+						{
+							"ControlName"	"EditablePanel"
+							"fieldname"		"Container"
+
+							"xpos"			"cs-0.5"
+							"ypos"			"40"
+
+							"wide"			"f7"
+							"tall"			"280"
+
+							"proportionaltoparent"	"1"
+
+							"GamemodeImage"
+							{
+								"ControlName"	"ImagePanel"
+								"Fieldname"		"GamemodeImage"
+
+								"xpos"			"cs-0.5"
+								"ypos"			"cs-0.57"
+
+								"tall"			"150"
+								"wide"			"o1"
+
+								"proportionaltoparent"	"1"
+
+								"image"			"../vgui/replay/thumbnails/zestyjesusServers"
+								"scaleimage"	"1"
+							}
+
+							"GamemodeLabel"
+							{
+								"ControlName"	"CExLabel"
+								"fieldName"		"GamemodeLabel"
+
+								"xpos"			"cs-0.5"
+								"ypos"			"0"
+								"zpos"			"2"
+
+								"wide"			"295"
+								"tall"			"25"
+
+								"visible"		"1"
+								"enabled"		"1"
+
+								"proportionaltoparent"	"1"
+
+								"mouseinputenabled" "0"
+
+								"font"			"HudFontSmallBold"
+								"labelText"		"Zesty Jesus"
+								"textAlignment"	"center"
+							}
+
+							"DescLabel"
+							{
+								"ControlName"	"CExLabel"
+								"fieldName"		"DescLabel"
+
+								"xpos"			"cs-0.5"
+								"ypos"			"r60"
+								"zpos"			"2"
+
+								"wide"			"295"
+								"tall"			"30"
+
+								"visible"		"1"
+								"enabled"		"1"
+
+								"proportionaltoparent"	"1"
+
+								"fgcolor_override"	"128 119 100 255"
+								"auto_wide_tocontents" "0"
+								"centerwrap"		   "1"
+
+								"font"			"HudFontSmallest"
+								"labelText"		"Sit, relax, and get a little bit zesty"
+								"textAlignment"	"north"
+							}
+							"FindGame"
+							{
+								"ControlName"	"CExButton"
+								"fieldName"		"FindGame"
+
+								"xpos"			"cs-1"
+								"ypos"			"rs1"
+								"zpos"			"100"
+
+								"wide"			"185"
+								"tall"			"40"
+
+								"visible"		"1"
+								"enabled"		"1"
+
+								"labeltext"		"START PLAYING!"
+								"font"			"HudFontSmallBold"
+								"textAlignment"	"center"
+
+								"Command"		"url https://zestyjesus.com/servers.php"
+								"proportionaltoparent"	"1"
+								"mouseinputenabled"		"1"
+								"keyboardinputenabled"	"0"
+
+								"sound_depressed"	"UI/buttonclick.wav"
+								"sound_released"	"UI/buttonclickrelease.wav"
+
+								"paintbackground"	"0"
+	
+								"defaultFgColor_override" "0 0 0 000"
+								"armedFgColor_override" "235 226 202 255"
+								"depressedFgColor_override" "0 0 0 000"
+
+								"border_default"	""
+								"border_armed"		"MainMenuButtonArmed"
+							}
+						}
+					}
+					"11" //Uncletopia
+					{
+						"item"			"Frying Pan"
+						"show_market"	"0"
+						"present_time"	"9999.0"
+
+						"Background"
+						{
+							"wide"		"0"
+						}
+
+						"ItemIcon"
+						{
+							"wide"		"0"
+						}
+
+						"ItemName"
+						{
+							"xpos"		"r0"
+						}
+
+						"BuyButton"
+						{
+							"wide"		"0"
+						}
+
+						"ScrollableItemText"
+						{
+							"wide"		"0"
+						}
+
+						"Container"
+						{
+							"ControlName"	"EditablePanel"
+							"fieldname"		"Container"
+
+							"xpos"			"cs-0.5"
+							"ypos"			"40"
+
+							"wide"			"f7"
+							"tall"			"280"
+
+							"proportionaltoparent"	"1"
+
+							"GamemodeImage"
+							{
+								"ControlName"	"ImagePanel"
+								"Fieldname"		"GamemodeImage"
+
+								"xpos"			"cs-0.5"
+								"ypos"			"cs-0.57"
+
+								"tall"			"150"
+								"wide"			"o1"
+
+								"proportionaltoparent"	"1"
+
+								"image"			"../vgui/replay/thumbnails/uncletopia"
+								"scaleimage"	"1"
+							}
+
+							"GamemodeLabel"
+							{
+								"ControlName"	"CExLabel"
+								"fieldName"		"GamemodeLabel"
+
+								"xpos"			"cs-0.5"
+								"ypos"			"0"
+								"zpos"			"2"
+
+								"wide"			"295"
+								"tall"			"25"
+
+								"visible"		"1"
+								"enabled"		"1"
+
+								"proportionaltoparent"	"1"
+
+								"mouseinputenabled" "0"
+
+								"font"			"HudFontSmallBold"
+								"labelText"		"Uncletopia"
+								"textAlignment"	"center"
+							}
+
+							"DescLabel"
+							{
+								"ControlName"	"CExLabel"
+								"fieldName"		"DescLabel"
+
+								"xpos"			"cs-0.5"
+								"ypos"			"r60"
+								"zpos"			"2"
+
+								"wide"			"295"
+								"tall"			"30"
+
+								"visible"		"1"
+								"enabled"		"1"
+
+								"proportionaltoparent"	"1"
+
+								"fgcolor_override"	"128 119 100 255"
+								"auto_wide_tocontents" "0"
+								"centerwrap"		   "1"
+
+								"font"			"HudFontSmallest"
+								"labelText"		"Alr unc, lets see what you have to prove"
+								"textAlignment"	"north"
+							}
+							"FindGame"
+							{
+								"ControlName"	"CExButton"
+								"fieldName"		"FindGame"
+
+								"xpos"			"cs-1"
+								"ypos"			"rs1"
+								"zpos"			"100"
+
+								"wide"			"185"
+								"tall"			"40"
+
+								"visible"		"1"
+								"enabled"		"1"
+
+								"labeltext"		"START PLAYING!"
+								"font"			"HudFontSmallBold"
+								"textAlignment"	"center"
+
+								"Command"		"url https://uncletopia.com/servers"
+								"proportionaltoparent"	"1"
+								"mouseinputenabled"		"1"
+								"keyboardinputenabled"	"0"
+
+								"sound_depressed"	"UI/buttonclick.wav"
+								"sound_released"	"UI/buttonclickrelease.wav"
+
+								"paintbackground"	"0"
+	
+								"defaultFgColor_override" "0 0 0 000"
+								"armedFgColor_override" "235 226 202 255"
+								"depressedFgColor_override" "0 0 0 000"
+
+								"border_default"	""
+								"border_armed"		"MainMenuButtonArmed"
+							}
+						}
+					}
+					"12" //CastawayServers
+					{
+						"item"			"Frying Pan"
+						"show_market"	"0"
+						"present_time"	"9999.0"
+
+						"Background"
+						{
+							"wide"		"0"
+						}
+
+						"ItemIcon"
+						{
+							"wide"		"0"
+						}
+
+						"ItemName"
+						{
+							"xpos"		"r0"
+						}
+
+						"BuyButton"
+						{
+							"wide"		"0"
+						}
+
+						"ScrollableItemText"
+						{
+							"wide"		"0"
+						}
+
+						"Container"
+						{
+							"ControlName"	"EditablePanel"
+							"fieldname"		"Container"
+
+							"xpos"			"cs-0.5"
+							"ypos"			"40"
+
+							"wide"			"f7"
+							"tall"			"280"
+
+							"proportionaltoparent"	"1"
+
+							"GamemodeImage"
+							{
+								"ControlName"	"ImagePanel"
+								"Fieldname"		"GamemodeImage"
+
+								"xpos"			"cs-0.5"
+								"ypos"			"cs-0.57"
+
+								"tall"			"150"
+								"wide"			"o1"
+
+								"proportionaltoparent"	"1"
+
+								"image"			"../vgui/replay/thumbnails/castaway"
+								"scaleimage"	"1"
+							}
+
+							"GamemodeLabel"
+							{
+								"ControlName"	"CExLabel"
+								"fieldName"		"GamemodeLabel"
+
+								"xpos"			"cs-0.5"
+								"ypos"			"0"
+								"zpos"			"2"
+
+								"wide"			"295"
+								"tall"			"25"
+
+								"visible"		"1"
+								"enabled"		"1"
+
+								"proportionaltoparent"	"1"
+
+								"mouseinputenabled" "0"
+
+								"font"			"HudFontSmallBold"
+								"labelText"		"Castaway"
+								"textAlignment"	"center"
+							}
+
+							"DescLabel"
+							{
+								"ControlName"	"CExLabel"
+								"fieldName"		"DescLabel"
+
+								"xpos"			"cs-0.5"
+								"ypos"			"r60"
+								"zpos"			"2"
+
+								"wide"			"295"
+								"tall"			"30"
+
+								"visible"		"1"
+								"enabled"		"1"
+
+								"proportionaltoparent"	"1"
+
+								"fgcolor_override"	"128 119 100 255"
+								"auto_wide_tocontents" "0"
+								"centerwrap"		   "1"
+
+								"font"			"HudFontSmallest"
+								"labelText"		"Go back in time, back to 2015"
+								"textAlignment"	"north"
+							}
+							"FindGame"
+							{
+								"ControlName"	"CExButton"
+								"fieldName"		"FindGame"
+
+								"xpos"			"cs-1"
+								"ypos"			"rs1"
+								"zpos"			"100"
+
+								"wide"			"185"
+								"tall"			"40"
+
+								"visible"		"1"
+								"enabled"		"1"
+
+								"labeltext"		"START PLAYING!"
+								"font"			"HudFontSmallBold"
+								"textAlignment"	"center"
+
+								"Command"		"url https://castaway.tf"
 								"proportionaltoparent"	"1"
 								"mouseinputenabled"		"1"
 								"keyboardinputenabled"	"0"

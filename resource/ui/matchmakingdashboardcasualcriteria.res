@@ -18,7 +18,11 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"Tab"
-		"xpos"			"c-330"
+		"xpos"			"c-330+53-25+10"	//4:3
+		if_wider
+        {
+            "xpos"		"c-330+23-25"
+        }
 		"ypos"			"17"
 		"zpos"			"445"
 		"wide"			"185"
@@ -26,7 +30,7 @@
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
-		"enabled"		"1"
+		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		""
 		"font"			"HudFontSmallBold"
@@ -46,7 +50,11 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"Title"
-		"xpos"			"c-320"
+		"xpos"			"c-320+53-25+10"	//4:3
+		if_wider
+        {
+            "xpos"		"c-320+23-25"
+        }
 		"ypos"			"24"
 		"zpos"			"447"
 		"wide"			"f0"
@@ -59,39 +67,36 @@
 
 		"mouseinputenabled"	"0"
 	}
-	
-	"RankModel"
+	"PartySlot0"
 	{
-		"ControlName"	"CMiniPVPRankPanel"
-		"fieldName"		"RankModel"
-		"xpos"			"c-220-75-12-27"	//4:3
-		if_wider
-        {
-            "xpos"		"c-234-75-12"
-        }
-		"ypos"			"55"
-		"zpos"			"110"
-		"wide"			"f0"
-		"tall"			"f0"
+		"ControlName"	"CDashboardPartyMember"
+		"fieldName"		"PartySlot0"
+		"xpos"			"c-250"
+		"ypos"			"78"
+		"zpos"			"102"
+		"wide"			"45"
+		"tall"			"42"
+		"autoResize"	"0"
+		"pinCorner"		"3"
 		"visible"		"1"
-		"enabled"		"1"
-		"proportionaltoparent"	"1"
+		"enabled"		"0"
+		"tabPosition"	"0"
+		"proportionaltoparent"	"0"
 		"mouseinputenabled"	"0"
-		
-		"matchgroup"	"MatchGroup_Casual_12v12"
-		"show_model"	"1"
+		"keyboardinputenabled"	"0"
+
+		"party_slot"	"0"
 	}
-	
 	"RankPanel"
 	{
 		"ControlName"	"CPvPRankPanel" ///CMiniPVPRankPanel for another placement
 		"fieldName"		"RankPanel"
-		"xpos"			"c-220+35-12-27"	//4:3
+		"xpos"			"c-215+35-12-27"	//4:3
 		if_wider
         {
-            "xpos"		"c-234+35-12"
+            "xpos"		"c-215+35-12"
         }
-		"ypos"			"55"
+		"ypos"			"48"
 		"zpos"			"330"
 		"wide"			"f0"
 		"tall"			"120"
@@ -100,7 +105,7 @@
 		"mouseinputenabled"	"0"
 
 		"matchgroup"	"MatchGroup_Casual_12v12"
-		"show_model"	"0"
+		"show_model"	"1"
 	}
 	
 	"criteria"
@@ -361,7 +366,7 @@
 		"tall"			"1120"  
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"/replay/thumbnails/mm/background"
+		"image"			"/replay/thumbnails/mm/casualbackground"
 		"scaleImage"	"1"
 		"proportionaltoparent" "1"
 	}

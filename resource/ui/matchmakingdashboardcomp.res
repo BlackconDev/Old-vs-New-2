@@ -17,7 +17,11 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"Tab"
-		"xpos"			"c-330"
+		"xpos"			"c-330+53-25+10"	//4:3
+		if_wider
+        {
+            "xpos"		"c-330+23-25"
+        }
 		"ypos"			"17"
 		"zpos"			"445"
 		"wide"			"250"
@@ -45,7 +49,11 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"Title"
-		"xpos"			"c-320"
+		"xpos"			"c-320+53-25+10"	//4:3
+		if_wider
+        {
+            "xpos"		"c-320+23-25"
+        }
 		"ypos"			"24"
 		"zpos"			"447"
 		"wide"			"f0"
@@ -182,16 +190,16 @@
 		"PaintBackgroundType"	"0"
 		"border"		"MainMenuBGBorder"
 	}
-	"RankPanel"
+	"PvPRankPanel"
 	{
 		"ControlName"	"CPvPRankPanel" ///CMiniPVPRankPanel for another placement
-		"fieldName"		"RankPanel"
-		"xpos"			"c-220+35-12-27"	//4:3
+		"fieldName"		"PvPRankPanel"
+		"xpos"			"c-215+35-12-27"	//4:3
 		if_wider
         {
-            "xpos"		"c-234+35-12"
+            "xpos"		"c-215+35-12"
         }
-		"ypos"			"55"
+		"ypos"			"48"
 		"zpos"			"330"
 		"wide"			"f0"
 		"tall"			"120"
@@ -201,7 +209,7 @@
 
 		"matchgroup"	"MatchGroup_Casual_12v12"
 		"show_model"	"0"
-		"show_stats"	"0"
+
 	}
 	"PartySlot0"
 	{
@@ -218,7 +226,7 @@
 		"enabled"		"0"
 		"tabPosition"	"0"
 		"proportionaltoparent"	"0"
-		"mouseinputenabled"	"1"
+		"mouseinputenabled"	"0"
 		"keyboardinputenabled"	"0"
 
 		"party_slot"	"0"
@@ -239,6 +247,7 @@
 		"scaleImage"	"1"	
 		"alpha"			"75"
 	}
+	/// Community Competitive Section NO CARE
 	"CommunityCompLabel"
 	{
 		"ControlName"	"CExLabel"

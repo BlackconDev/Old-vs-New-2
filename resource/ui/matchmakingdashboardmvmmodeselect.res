@@ -25,7 +25,7 @@
 		"tall"			"1120" 
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"/replay/thumbnails/mm/colour"
+		"image"			"/replay/thumbnails/mm/mvmbackground"
 		"scaleImage"	"1"
 		"proportionaltoparent" "1"
 	}

@@ -146,7 +146,7 @@
 	
 	"FakeCompetitiveEntryButton"
 	{
-	    "label"         "Play Comp" 
+	    "label"         "Play Ranked" 
 		"command"       "0"
 		"subimage"      "glyph_quest_icon"
 	}

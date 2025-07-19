@@ -136,7 +136,7 @@
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
-		"enabled"		"1"
+		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		""
 		"font"			"HudFontSmallBold"
@@ -157,7 +157,7 @@
 		"ControlName"	"Label"
 		"fieldName"		"WelcomeLabel"
 		"font"			"HudFontSmallBold"
-		"labelText"		"WELCOME BACK, MERCENARY"
+		"labelText"		"WELCOME BACK,"
 		"textAlignment"	"west"
 		"xpos"			"c-275+53-25+10"	//4:3
 		if_wider
@@ -235,6 +235,44 @@
             "centerwrap"    "1"
         }
     }
+	"RankPanel"
+	{
+		"ControlName"	"CMiniPVPRankPanel" ///CMiniPVPRankPanel for another placement
+		"fieldName"		"RankPanel"
+		"xpos"			"c-195+53-25+10"	//4:3
+		if_wider
+        {
+            "xpos"		"c-195+23-25"
+        }
+		"ypos"			"-3"
+		"zpos"			"330"
+		"wide"			"176"
+		"tall"			"47"
+		"visible"		"1"
+
+		"mouseinputenabled"	"0"
+
+		"matchgroup"	"MatchGroup_Casual_12v12"
+		"show_model"	"0"
+		"show_progress"	"1"
+
+	}
+	"RankModelPanel"
+	{
+		"ControlName"	"CPvPRankPanel"
+		"fieldName"		"RankModelPanel"
+		"xpos"			"c-600"
+		"ypos"			"r90"
+		"zpos"			"12"
+		"wide"			"120"
+		"tall"			"120"
+		"visible"		"0"
+		"proportionaltoparent"	"1"
+		"mouseinputenabled"	"1"
+		"matchgroup"	"MatchGroup_Casual_12v12"
+		"show_progress"	"0"
+	}
+	
    "ExpandableToolBar"
 	{
 			"ControlName"	"CMatchHistoryEntryPanel"
@@ -465,10 +503,10 @@
 				"border_default"	"MainMenuButtonDefault"
 				"border_armed"		"MainMenuButtonArmed"
 			}	
-			"SafeModeToggle"	
+			"VguiToggle"	
 			{
 				"ControlName"	"CExButton"
-				"fieldName"		"SafeModeToggle"
+				"fieldName"		"VguiToggle"
 				"xpos"			"-135"
 				"ypos"			"115"
 				"zpos"			"1002"
@@ -479,7 +517,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"font"          "HudFontSmallestBold"
-				"labelText"     "Coming Soon"
+				"labelText"     "Vgui Drawtree"
 				"textAlignment"	"center"
 				"textinsetx"	"25"
 				"use_proportional_insets" "1"
@@ -489,7 +527,7 @@
 				"paintbackground"	"0"
 				
 				"actionsignallevel"	"2"
-				"command"		"engine toggle cl_mainmenu_safemode"
+				"command"		"engine +vgui_drawtree"
 
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"

@@ -15,20 +15,20 @@
 	}
 	
 	"Background"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"Background"
-			"xpos"			"-60"
-			"ypos"			"-40"
-			"zpos"			"20"
-			"wide"			"1120"
-			"tall"			"1120" 
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"/replay/thumbnails/mm/colour"
-			"scaleImage"	"1"
-			"proportionaltoparent" "1"
-		}
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Background"
+		"xpos"			"-60"
+		"ypos"			"-40"
+		"zpos"			"20"
+		"wide"			"1120"
+		"tall"			"1120" 
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"/replay/thumbnails/mm/mvmbackground"
+		"scaleImage"	"1"
+		"proportionaltoparent" "1"
+	}
 
 	"criteria"
 	{
