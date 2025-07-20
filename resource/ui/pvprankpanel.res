@@ -1,22 +1,44 @@
 "Resource/UI/PvPRankPanel.res"
 {
+	"Rankpin"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"Rankpin"
+
+		"xpos"		"-75"
+		"ypos"		"15"
+			
+		"wide"		"20"
+		"tall"		"20"
+		"visible"	"0"
+				
+		"alpha" "0"
+		"pinCorner"		"1"
+		
+		if_mini
+		{
+			"xpos"		"20"
+			"ypos"		"15"
+		}
+	}	
 	"ModelContainer"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ModelContainer"
-		"xpos"			"c-9999999999999999"
+		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.5"
 		"zpos"			"3"		
 		"wide"			"f0"
 		"tall"			"f0"
 		"proportionaltoparent"	"1"
 		"actionsignallevel"	"2"
-
+		
+		"pin_to_sibling"	"Rankpin"
 		"BelowModelParticlePanel"
 		{
 			"ControlName"	"CTFParticlePanel"
 			"fieldName"		"BelowModelParticlePanel"
-			"xpos"			"c-9999999999999999"
+			"xpos"			"c-265"
 			"ypos"			"0"
 			"zpos"			"-1"
 			"wide"			"f0"
@@ -48,21 +70,21 @@
 		{
 			"ControlName"	"CBaseModelPanel"
 			"fieldName"		"RankModel"
-			"xpos"			"c-99999999"
+			"xpos"			"cs-3.7"	//4:3
 			"ypos"			"cs-0.59"
 			"zpos"			"0"		
 			"wide"			"100"
 			"tall"			"100"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"0"
+			"visible"		"1"
 			"enabled"		"0"
 			"fov"			"70"
 			"proportionaltoparent"	"1"
 			
 			if_mini
 			{
-				"visible"		"0"
+				"visible"		"1"
 			}
 
 			"paintbackground"	"0"
@@ -85,7 +107,6 @@
 				if_mini
 				{
 					"origin_x"		"55"
-					"visible" 		"0"
 				}
 
 				"animation"
@@ -110,7 +131,7 @@
 		{
 			"ControlName"	"CTFParticlePanel"
 			"fieldName"		"AboveModelParticlePanel"
-			"xpos"			"c-9999999999999999"
+			"xpos"			"cs-0.5"
 			"ypos"			"0"
 			"zpos"			"1"
 			"wide"			"f0"
@@ -163,7 +184,7 @@
 		{
 			"ControlName"	"Button"
 			"fieldName"		"MedalButton"
-			"xpos"			"c-9999999999999999"
+			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.5+2"
 			"zpos"			"100"
 			"wide"			"o1"
@@ -175,6 +196,7 @@
 
 			"paintbackground"	"0"
 			"backgroundenabled"	"0"
+			"pin_to_sibling"	"RankModel"
 		}
 	}
 	"BGPin"
@@ -182,7 +204,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BGPin"
 
-		"xpos"		"25"
+		"xpos"		"100"
 		"ypos"		"15"
 			
 		"wide"		"20"

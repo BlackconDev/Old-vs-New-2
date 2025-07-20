@@ -67,34 +67,15 @@
 
 		"mouseinputenabled"	"0"
 	}
-	"PartySlot0"
-	{
-		"ControlName"	"CDashboardPartyMember"
-		"fieldName"		"PartySlot0"
-		"xpos"			"c-250"
-		"ypos"			"78"
-		"zpos"			"102"
-		"wide"			"45"
-		"tall"			"42"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"0"
-		"tabPosition"	"0"
-		"proportionaltoparent"	"0"
-		"mouseinputenabled"	"0"
-		"keyboardinputenabled"	"0"
-
-		"party_slot"	"0"
-	}
+	
 	"RankPanel"
 	{
 		"ControlName"	"CPvPRankPanel" ///CMiniPVPRankPanel for another placement
 		"fieldName"		"RankPanel"
-		"xpos"			"c-215+35-12-27"	//4:3
+		"xpos"			"c-287+35-12-27"	//4:3
 		if_wider
         {
-            "xpos"		"c-215+35-12"
+            "xpos"		"c-287+35-12"
         }
 		"ypos"			"48"
 		"zpos"			"330"
@@ -105,9 +86,29 @@
 		"mouseinputenabled"	"0"
 
 		"matchgroup"	"MatchGroup_Casual_12v12"
-		"show_model"	"1"
+		"show_model"	"0"
 	}
-	
+	"BadgeRankPanel"
+	{
+		"ControlName"	"CMiniPVPRankPanel" ///CMiniPVPRankPanel for another placement
+		"fieldName"		"BadgeRankPanel"
+		"xpos"			"c-295+35-12-27"	//4:3
+		if_wider
+        {
+            "xpos"		"c-295+35-12"
+        }
+		"ypos"			"48"
+		"zpos"			"430"
+		"wide"			"f0"
+		"tall"			"120"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+		"mouseinputenabled"	"1"
+
+		"matchgroup"	"MatchGroup_Casual_12v12"
+		"show_model"	"1"
+		"show_progress"	"0"
+	}
 	"criteria"
 	{
 		"ControlName"	"CCasualCriteriaPanel"

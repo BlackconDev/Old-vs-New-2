@@ -239,14 +239,14 @@
 	{
 		"ControlName"	"CMiniPVPRankPanel" ///CMiniPVPRankPanel for another placement
 		"fieldName"		"RankPanel"
-		"xpos"			"c-195+53-25+10"	//4:3
+		"xpos"			"c-270+53-25+10"	//4:3
 		if_wider
         {
-            "xpos"		"c-195+23-25"
+            "xpos"		"c-270+23-25"
         }
 		"ypos"			"-3"
 		"zpos"			"330"
-		"wide"			"176"
+		"wide"			"250"
 		"tall"			"47"
 		"visible"		"1"
 
@@ -445,7 +445,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"font"          "HudFontSmallBold"
-				"labelText"     "Minmode"
+				"labelText"     "Classic mode"
 				"textAlignment"	"center"
 				"textinsetx"	"25"
 				"use_proportional_insets" "1"
