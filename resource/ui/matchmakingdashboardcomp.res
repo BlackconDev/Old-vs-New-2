@@ -194,10 +194,10 @@
 	{
 		"ControlName"	"CPvPRankPanel" ///CMiniPVPRankPanel for another placement
 		"fieldName"		"PvPRankPanel"
-		"xpos"			"c-215+35-12-27"	//4:3
+		"xpos"			"c-330+53-25+10"	//4:3
 		if_wider
         {
-            "xpos"		"c-215+35-12"
+            "xpos"		"c-330+23-25"
         }
 		"ypos"			"48"
 		"zpos"			"330"

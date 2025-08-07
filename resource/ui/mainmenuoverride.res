@@ -742,7 +742,7 @@
     {
         "ControlName"   "ScalableImagePanel"
         "fieldName"     "Background"
-        "xpos"          "cs-0.4"
+        "xpos"          "cs-0.5"
         "ypos"          "0"
         "zpos"          "-200"
         "wide"          "o1.7"
